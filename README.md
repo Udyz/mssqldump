@@ -8,7 +8,7 @@ This Toolkit help you export all databases to csv file
 .##-CORP--^ /---\       Author: github.com/Udyz
 .#######.
 
-usage: SQLDump.exe [-h] [-s SERVER] [-u USER] [-p PASSWORD] [-db DATABASE] [-n] [key ...]
+usage: MSSQLDump.exe [-h] [-s SERVER] [-u USER] [-p PASSWORD] [-db DATABASE] [-n] [key ...]
 
 This Toolkit help you export all databases to csv file
 
