@@ -8,7 +8,7 @@ This Toolkit help you export all databases to csv file
 .##-CORP--^ /---\       Author: github.com/Udyz
 .#######.
 
-usage: smssdump.py [-h] [-s SERVER] [-u USER] [-p PASSWORD] [-db DATABASE] [-n] [key ...]
+usage: MSSQLDump [-h] [-s SERVER] [-u USER] [-p PASSWORD] [-db DATABASE] [-n] [key ...]
 
 This Toolkit help you export SQL Server Data from table to csv file
 
@@ -25,3 +25,11 @@ options:
   -n, --no-user         Login as trusted connection
 ```
 ![image](https://cehvietnam.files.wordpress.com/2021/03/nmap.jpg?w=10&key=lulzalx)
+
+# Support
++ MSSQLDump cannot be used on Windows xp/2008 or earlier
++ CPU > 4 core 4 threads, RAM > 2 GB  
+
+# Requirement
++ msodbcsql (ODBC Driver for SQL Server)
++ MsSqlCmdLnUtils (sqlcmd Utility)
